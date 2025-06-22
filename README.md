@@ -21,10 +21,10 @@ Elasticsearch is a distributed search and analytics engine, scalable data store,
 
 ## 🛠️ Technical Stack
 - **Knowledge Base**: `documents.json` containing course-related FAQ documents from the [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp/tree/main) course
-- **Retriever**: MinSearch (lightweight local lexical search using TF-IDF and keyword matching)  
-- **Search Method**: Hybrid (TF-IDF + keyword field filtering)  
-- **Embedding/Vectorization**: Internal MinSearch vectorizer (TF-IDF)
-- **Interface**: Jupyter Notebook
+- **LLM**: OpenAI (GPT 4o)  
+- **Indexing, Retrieval, and Search**: Elasticsearch  
+- **Interface**: Jupyter Notebook  
+- **Containerization**: Docker (to run Elasticsearch locally)
 
 ## ⚙️ Datasets
 * `documents.json`: Small-scale keyword-only dataset
