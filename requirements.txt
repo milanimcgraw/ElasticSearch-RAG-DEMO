@@ -5,3 +5,4 @@ elasticsearch==8.13.0
 pandas
 scikit-learn
 ipywidgets
+docker
